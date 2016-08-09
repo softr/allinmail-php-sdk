@@ -1,0 +1,32 @@
+{
+    "name"       : "softr/allinmail-php-sdk",
+    "type"       : "library",
+    "description": "TinyERP PHP API Wrapper",
+    "keywords"   : ["TinyERP", "API", "ERP", "Ecommerce"],
+    "homepage"   : "https://github.com/softr/allinmail-php-sdk",
+    "license"    : "MIT",
+    "authors": [
+        {
+            "name"    : "Agência Softr",
+            "email"   : "agencia.softr@gmail.com",
+            "homepage": "http://www.softr.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "kriswallsmith/buzz": "~0.10",
+        "guzzlehttp/guzzle" : "~5.0|~6.0"
+    },
+    "suggest": {
+        "kriswallsmith/buzz": "To use BuzzAdapter, require kriswallsmith/buzz:~0.10.",
+        "guzzlehttp/guzzle" : "To use GuzzleHttpAdapter, require guzzlehttp/guzzle:~5.0|~6.0."
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Softr\\AllInMail\\": "src/"
+        }
+    }
+}
